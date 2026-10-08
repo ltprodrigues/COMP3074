@@ -1,0 +1,30 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Keep only the three submitted labs in this repository.
+/*
+!/.gitignore
+!/Lab1HelloAndroid/
+!/lab2/
+!/Lab3/
+
+# Android generated files in any lab.
+**/build/
+**/.gradle/
+**/.kotlin/
+**/.idea/
+**/local.properties
+*.iml
